@@ -1,0 +1,19 @@
+{
+  "projectName": "q-t-the-quantumlearning",
+  "buildCommand": "echo 'Static site - no build needed'",
+  "outputDirectory": ".",
+  "public": false,
+  "github": {
+    "enabled": true,
+    "monorepo": false
+  },
+  "env": [],
+  "regions": ["iad"],
+  "functions": {},
+  "rewrites": [
+    {
+      "source": "/(.+)",
+      "destination": "/$1"
+    }
+  ]
+}
